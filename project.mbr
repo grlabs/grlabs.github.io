@@ -1,0 +1,98 @@
+{
+  "settings": {
+    "currentPage": "index.html"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": ""
+      },
+      "components": [
+        {
+          "_name": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true
+          },
+          "_anchor": "menu-0",
+          "logo": "{PROJECT_IMAGES}favico.png",
+          "brand": "<a data-app-btn=\"true\" href=\"http://www.grlabs.eu\" class=\"\">Grlabs.eu<br></a>",
+          "items": "<ul class=\"nav nav-pills pull-right\"><li><a href=\"http://www.grlabs.eu\" data-app-btn=\"true\" class=\"\">HOME</a></li></ul>"
+        },
+        {
+          "_name": "content4",
+          "_params": {
+            "overlay": false,
+            "bgColorRadio": true,
+            "showTitles": true,
+            "showCaptions": true,
+            "columns": "3",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#fff",
+            "bgVideo": {
+              "url": "https://www.youtube.com/channel/UCpoHZwbLCL03_4TWyCI9_aw"
+            },
+            "bgVideoRadio": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "_anchor": "content4-2",
+          "title1": "IP",
+          "caption1": "{{ip}}",
+          "title2": "User Agent",
+          "caption2": "{{user_agent}}",
+          "title3": "Resolution",
+          "caption3": "{{resolution}}"
+        },
+        {
+          "_name": "msg-box4",
+          "_params": {
+            "overlay": false,
+            "bgColorRadio": true,
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "textAlign": "left",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#f97352",
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "_anchor": "msg-box4-5",
+          "image": "{PROJECT_IMAGES}interface.jpg",
+          "title": "dev2dev - Podcast da Developer per Developer",
+          "text": "<p>Un podcast in Italiano per Developer</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-default\" href=\"http://dev2dev.grlabs.eu/\">LEARN MORE</a>"
+        },
+        {
+          "_name": "footer1",
+          "_params": {
+            "overlay": true,
+            "bgColorRadio": true,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#444444",
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "_anchor": "footer1-3",
+          "text": "Copyright (с) 2015 Grlabs."
+        }
+      ]
+    }
+  }
+}
